@@ -1,0 +1,272 @@
+@font-face {
+	font-family: pokemonFont;
+	src: url(pokemon-font.ttf);
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .col-sm-5 {
+        max-width: 100% !important;
+    } 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    padding: 40px;
+}
+
+h2 {
+    color: #406163;
+}
+
+.hidden {
+    opacity: 0;
+    display: none;
+}
+
+.search-container {
+    display: flex;
+    margin: 10px;
+    width: 80%;
+}
+
+input:focus {
+    border: 1px solid #22CBA8;
+    box-shadow: none!important;
+}
+
+.btn-search {
+    width: 10%;
+    border: none;
+    padding-bottom: 10px 25px;
+    border-radius: 0 5px 5px 0;
+    background-color: #22CBA8;
+    color: #fff;
+    margin-left: -15px;
+    cursor: pointer;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px 15px;
+    background-color: #efefef;
+    color: #ffffff;
+}
+
+.pokemon-card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 15px;
+}
+
+.cp-text span {
+    font-size: 16px;
+}
+
+.img-container {
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.stats {
+    width: 100%;
+}
+
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:100px 30px 60px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 100%;
+    margin-top: -150px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+.seperator {
+    border-color: #6EECB7 !important;
+    border-width: 10px;
+    border-radius: 5px;
+}
+
+.btn-transfer {
+    margin: 45px 0;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #9EDA93, #22CBA8);
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    min-width: 60%;
+}
+.stats span.first {
+    border-right:1px solid #eee
+}
+
+.attributes-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.cp-text {
+    padding-right: 10px;
+    border-right: 1px solid #eee;
+    margin: 0;
+}
+
+.cp-text:last-child {
+    border: none;
+}
+
+.player-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.data-container p {
+    margin-bottom: 0;
+}
+
+#update_hp {
+    background-color: #fff;
+}
+
+#hp_value {
+    background-color: #fff;
+    
+}
+
+#update_name, #update_candy_title{
+    text-transform: capitalize;
+}
+
+.progress {
+    margin-top: 5px;
+}
+
+@media only screen and (min-width: 576px) {
+    .col-sm-5 {
+        border-top: hidden;
+        max-width: inherit;
+    }
+}    
+
+    
+
+    #pokemon-details{
+        padding-right: 400px;
+    }
+
+
+.d-inline {
+	border-radius: 20px; 
+	border: 1px solid #000000;
+	font-family: pokemonFont;
+	text-transform: uppercase;
+	font-size: 11px;
+    color: #ffffff;
+    text-shadow: -0.25px 0.25px 0 #000,
+                    0.25px 0.25px 0 #000,
+                    0.25px -0.25px 0 #000,
+                    -0.25px -0.25px 0 #000;
+}
+
+.status_number {
+    font-weight: 600;
+}
+
+.steel {
+	background-color: #B8B8D0;
+}
+
+.fire {
+	background-color: #F08030;
+}
+
+.grass {
+	background-color: #78C850;
+}
+
+.electric {
+	background-color: #F8D030;
+}
+
+.water {
+	background-color: #6890F0;
+} 
+
+.ice {
+	background-color: #98D8D8;
+}
+
+.ground {
+	background-color: #E0C068;
+}
+
+.rock {
+	background-color: #B8A038;
+}
+
+.fairy {
+	background-color: #EE99AC;
+}
+
+.poison {
+	background-color: #A040A0;
+}
+
+.bug {
+	background-color: #a0b305;
+}
+
+.dragon {
+	background-color: #7038F8;
+}
+
+.psychic {
+	background-color: #F85888;
+}
+
+.flying {
+	background-color: #A890F0;
+}
+
+.fighting {
+	background-color: #C03028;
+}
+
+.normal {
+	background-color: #A8A878;
+}
+
+.ghost {
+	background-color: #705898;
+}
+
+.dark {
+	background-color: #705848;
+}
